@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.swiper-button-prev:after, .swiper-button-next:after { font-family: 'xeicon' !important; color: #999 !important; }
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after { content: '\e93d' !important; }
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after { content: '\e940' !important; }
+
+.tabSwiper { border-bottom: 1px solid #efefef; }
+.tabSwiper .swiper-slide { text-align: center; height: 70px; line-height: 70px; font-size: 20px; font-weight: bold; color: #999; border-bottom: 3px solid transparent; cursor: pointer; }
+.tabSwiper .swiper-slide.swiper-slide-active { color: #212121; border-color: #212121; }
+
+
+.contSwiper { width: 90%; max-width: 1000px; margin: 100px auto 0; }
+.contSwiper .swiper-slide { width: 100%; height: 600px; line-height: 600px; text-align: center; font-size: 2em; font-weight: bold; }
+.contSwiper .swiper-button-next:after,
+.contSwiper .swiper-button-prev:after { font-size: 5rem; }
+.contSwiper .swiper-pagination { position: static; transform: none; border-bottom: 1px solid #e5e5e5; margin-bottom: 8%; }
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet { display: inline-block; width: auto; height: 60px; line-height: 60px; opacity: 1; background-color: transparent; margin: 0 1.7rem; border-bottom: 3px solid transparent; font-size: 20px; font-weight: bold; color: #999; border-radius: 0; }
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active { color: #212121; border-color: #212121; }
+
+/* .contSwiper .swiper-pagination { display: none; margin-bottom: 8%; position: relative; }
+.contSwiper .swiper-pagination::before { content: ''; display: block; width: 110%; height: 1px; background-color: #e5e5e5; position: absolute; left: -5%; bottom: 0; }
+.contSwiper .swiper-pagination .awardsTab_swiper { width: 115%; overflow: hidden; }
+.contSwiper .swiper-pagination .swiper-slide { text-align: center; padding: 0 2em; }
+.contSwiper .swiper-pagination .swiper-slide > span { font-size: 2em; margin: 0; cursor: pointer; } */
